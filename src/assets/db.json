@@ -1,0 +1,72 @@
+[
+    {
+      "name": "John Doe",
+      "Math": 85,
+      "Science": 78,
+      "Economics": 92,
+      "totalMarks": 255
+    },
+    {
+      "name": "Jane Smith",
+      "Math": 90,
+      "Science": 85,
+      "Economics": 88,
+      "totalMarks": 263
+    },
+    {
+      "name": "Sam Johnson",
+      "Math": 78,
+      "Science": 82,
+      "Economics": 80,
+      "totalMarks": 240
+    },
+    {
+      "name": "Emily Davis",
+      "Math": 92,
+      "Science": 90,
+      "Economics": 89,
+      "totalMarks": 271
+    },
+    {
+      "name": "Michael Brown",
+      "Math": 80,
+      "Science": 75,
+      "Economics": 85,
+      "totalMarks": 240
+    },
+    {
+      "name": "Sarah Wilson",
+      "Math": 88,
+      "Science": 80,
+      "Economics": 91,
+      "totalMarks": 259
+    },
+    {
+      "name": "David Lee",
+      "Math": 77,
+      "Science": 85,
+      "Economics": 79,
+      "totalMarks": 241
+    },
+    {
+      "name": "Laura Martin",
+      "Math": 95,
+      "Science": 92,
+      "Economics": 90,
+      "totalMarks": 277
+    },
+    {
+      "name": "Chris Garcia",
+      "Math": 82,
+      "Science": 78,
+      "Economics": 84,
+      "totalMarks": 244
+    },
+    {
+      "name": "Anna Thompson",
+      "Math": 88,
+      "Science": 89,
+      "Economics": 86,
+      "totalMarks": 263
+    }
+  ]  

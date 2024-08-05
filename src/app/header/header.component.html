@@ -1,0 +1,23 @@
+<h1>Welcome to Student Teacher Portal</h1>
+<h1>inwq;dfja</h1>
+<h3 id="title">Enter your credentials</h3>
+<button (click)="changetitle()">Change Title</button>
+
+<div>
+  <button (click)="ShowInput('student')">Student</button>
+  <button (click)="ShowInput('teacher')">Teacher</button>
+</div>
+
+<div *ngIf="selected === 'student'">
+  <input type="text" [(ngModel)]="StudentName" placeholder="Enter student name">
+  <button (click)="StudentClick()">Submit</button>
+</div>
+
+<div *ngIf="selected === 'teacher'">
+  <input type="text" [(ngModel)]="TeacherName" placeholder="Enter teacher name">
+  <button (click)="TeacherClick()">Submit</button>
+</div>
+<div>
+  {{date | uppercase}}
+</div>
+<router-outlet></router-outlet>

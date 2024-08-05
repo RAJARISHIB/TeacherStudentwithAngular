@@ -1,0 +1,23 @@
+<div>{{ TeacherName }}</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Math</th>
+            <th scope="col">Science</th>
+            <th scope="col">Economics</th>
+            <th scope="col">Total Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Iterate over StudentList to display each student's data -->
+        <tr *ngFor="let student of StudentList">
+            <th scope="row">{{ student.name }}</th>
+            <td>{{ student.Math }}</td>
+            <td>{{ student.Science }}</td>
+            <td>{{ student.Economics }}</td>
+            <td>{{ student.totalMarks }}</td>
+        </tr>
+    </tbody>
+</table>
